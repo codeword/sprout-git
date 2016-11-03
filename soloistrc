@@ -8,7 +8,7 @@ node_attributes:
   sprout:
     git:
       aliases:
-        - ci duet-commit
+        - ci custom-override-of-ci-alias
         - cfbb "commit --with-custom-flags bar baz"
       domain: pivotal.io
       prefix: pair
